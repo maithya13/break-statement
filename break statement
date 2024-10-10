@@ -1,0 +1,12 @@
+import random as r
+rand_num=r.randrange(1,20) # Generating a random nube between 1 and 19
+print('Number to be guessed:',rand_num)
+i=1
+while True:
+    print('Number guessed:',i)
+    if(i==rand_num): # This is executed when the guess is correct
+        print('Random number has been guessed successfully!')
+        break # stops and exits from the loop
+    i+=1
+print('end of the program')
+      
